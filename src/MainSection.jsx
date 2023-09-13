@@ -10,7 +10,10 @@ export const MainSection = () => {
       <h2 className='name'>Kristjan Lääne</h2>
       <p className='title'>Frontend Developer</p>
       <p className='website'>kristjanlaane.com</p>
-      <p className='email'>Email</p>
+      <div className='btn-container'>
+        <p className='email'>Email</p>
+        <p className='linkedin'>LinkedIn</p>
+      </div>
     </div>
   )
 }
