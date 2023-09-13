@@ -1,9 +1,12 @@
+import { About } from './About'
+import { MainSection } from './MainSection'
 import './index.scss'
 
 function App() {
   return (
     <div>
-      <div>Hi</div>
+      <MainSection />
+      <About />
     </div>
   )
 }
